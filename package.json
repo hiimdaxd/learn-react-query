@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tanstack/react-query-devtools": "^5.51.21",
+    "classnames": "^2.5.1"
+  }
+}
