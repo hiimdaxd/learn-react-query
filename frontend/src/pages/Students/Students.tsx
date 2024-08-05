@@ -34,6 +34,15 @@ export default function Students() {
   return (
     <div>
       <h1 className='text-lg'>Students</h1>
+      <div className='mt-3'>
+        <Link
+          to='/students/add'
+          className='rounded-lg bg-gray-800 px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 '
+        >
+          Add Student
+        </Link>
+      </div>
+
       {isPending && (
         <div role='status' className='mt-6 animate-pulse'>
           <div className='mb-4 h-4  rounded bg-gray-200 dark:bg-gray-700' />
